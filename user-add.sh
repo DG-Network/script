@@ -18,7 +18,7 @@ fi
 echo "------------------------ MEMBUAT AKUN SSH ------------------------"| lolcat
 
 
-	echo "<<<<<<<<<<         UNDER AUTHORITY		: DG-Network™        >>>>>>>>>>" | lolcat
+echo "<<<<<<<<<<  UNDER AUTHORITY   : DG-Network™  >>>>>>>>>>" | lolcat
 echo ""
 
 read -p "Isikan username: " username
@@ -40,7 +40,7 @@ echo -e ""
 echo -e ""
 echo -e ""
 echo -e ""| lolcat
-echo -e "                       |       Informasi Akun Baru SSH      |
+echo -e "                       |  Informasi Akun Baru SSH  |
        ============[[-SERVER-PREMIUM-]]===========
             Host: $MYIP
             Username: $username
@@ -49,11 +49,11 @@ echo -e "                       |       Informasi Akun Baru SSH      |
             Port Default OpenSSH : 22,143         
             Port Default Squid   : 8080,3128      
 	    
-                                 Config OpenVPN	   :                
+                             Config OpenVPN:
             http://$MYIP:81/client.ovpn      
                                         
                         Auto kill user maximal login 2
-             -------------------------------------------
+      -------------------------------------------
        ===========================================
                      UNDER AUTHORITY     : DG-NetworK
        ===========================================
