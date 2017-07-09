@@ -17,7 +17,7 @@ fi
 
 echo "------- ---------- BANNED AKUN SSH --------------------"
 
-	echo "        	 UNDER AUTHORITY		: DG-Network™	            "
+	echo "       UNDER AUTHORITY     : DG-Network™"
 echo ""
 
 # begin of user-list
@@ -48,10 +48,10 @@ if [ $? -eq 0 ]; then
 		echo " User : $username" >> /root/banneduser.txt
 		passwd -l $username
 		echo ""
-		echo "Akun [$username] berhasil dibanned!"
+		echo "      Akun [$username] berhasil dibanned!" | boxes -d capgirl | lolcat
 	else
 		echo ""
-		echo "Banned akun [$username] dibatalkan!"
+		echo "      Banned akun [$username] dibatalkan!" | boxes -d girl | lolcat
 	fi
 else
 	echo "Username [$username] belum terdaftar!"
