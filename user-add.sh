@@ -40,23 +40,24 @@ echo -e ""
 echo -e ""
 echo -e ""
 echo -e ""| lolcat
-echo -e "|       Informasi Akun Baru SSH      |" | boxes -d dog | lolcat
-echo -e "============[[-SERVER-PREMIUM-]]===========" | lolcat
-echo -e "     Host: $MYIP" | lolcat
-echo -e "     Username: $username" | lolcat
-echo -e "     Password: $password                   " | lolcat
-echo -e "     Port Default Dropbear: 443,80         " | lolcat
-echo -e "     Port Default OpenSSH : 22,143         " | lolcat
-echo -e "     Port Default Squid   : 8080,3128      " | lolcat
-echo -e "     Config OpenVPN	   :                "| lolcat
-echo -e "     http://$MYIP:81/client.ovpn      " | lolcat
-echo -e "                                           " | lolcat
-echo -e "     Auto kill user maximal login 2        " | lolcat
-echo -e "-------------------------------------------" | lolcat
-echo -e "===========================================" | lolcat
-echo -e "    UNDER AUTHORITY	: DG-Network™       "| lolcat
-echo -e "===========================================" | lolcat
-echo -e "===========================================" | lolcat
+echo -e "                       |       Informasi Akun Baru SSH      |
+       ============[[-SERVER-PREMIUM-]]===========
+            Host: $MYIP
+            Username: $username
+            Password: $password                   
+            Port Default Dropbear: 443,80         
+            Port Default OpenSSH : 22,143         
+            Port Default Squid   : 8080,3128      
+	    
+                                 Config OpenVPN	   :                
+            http://$MYIP:81/client.ovpn      
+                                        
+                        Auto kill user maximal login 2
+             -------------------------------------------
+       ===========================================
+                     UNDER AUTHORITY     : DG-NetworK
+       ===========================================
+       ===========================================" | boxes -d nuke | lolcat
 echo -e ""
 echo -e ""
 fi
